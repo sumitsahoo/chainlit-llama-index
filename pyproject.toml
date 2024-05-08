@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chainlit-llama-index"
+version = "1.0.0"
+description = "A custom chatbot using Chainlit and LlamaIndex"
+authors = ["Sumit Sahoo <sumitsahoo1988@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chainlit = "^1.0.506"
+llama-index-core = "^0.10.35.post1"
+llama-index-llms-openai = "^0.1.17"
+llama-index-embeddings-openai = "^0.1.9"
+load-dotenv = "^0.1.0"
+llama-index-readers-file = "^0.1.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
