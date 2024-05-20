@@ -1,8 +1,8 @@
-# Custom chatbot using Chainlit, Llama Index and OpenAI
+# ℹ️ Custom chatbot using Chainlit, Llama Index and OpenAI
 
 A custom chatbot built in python using Chainlit, Llama Index and OpenAI
 
-## Prerequisites
+## 📦 Prerequisites
 
 - Python 3.10 or higher
 - OpenAI API key
@@ -10,7 +10,7 @@ A custom chatbot built in python using Chainlit, Llama Index and OpenAI
 - Chainlit
 - dotenv
 
-## Setup
+## 🛠️ Setup
 
 1. Clone the repository.
 2. Install the required Python packages using pip:
@@ -26,15 +26,15 @@ A custom chatbot built in python using Chainlit, Llama Index and OpenAI
     python main.py
     ```
 
-## How it works
+## ❓ How it works
 
 The script first loads the OpenAI API key from the environment variables. It then tries to load an existing index from the storage. If it fails (for example, if the index does not exist), it reads documents from a directory, creates a new index from these documents, and persists it to the storage.
 
-## Contributing
+## 👨🏻‍💻 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## 📜 License
 
 MIT License
 
